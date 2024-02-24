@@ -1,7 +1,7 @@
 # Get List API From webMethods API Gateway
 If you're working with webMethods API Gateway and find yourself needing to retrieve the API list along with nativeEndpoint details, it might take extra time, especially if your API Gateway has numerous APIs.
 
-However, after reading this article, the process of listing all APIs in your gateway will be more efficient.
+However, if your using this tool, the process of listing all APIs in your gateway will be more efficient.
 
 ### Requirement
 - Install [jq](https://github.com/jqlang/jq)
