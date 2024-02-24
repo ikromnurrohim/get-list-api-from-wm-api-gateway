@@ -18,7 +18,7 @@ jq '.apiResponse[].api.id' $asset_dir/apis.json  | tr -d '"' > $asset_dir/apiId
 jq '.apiResponse[].api.isActive' $asset_dir/apis.json > $asset_dir/isActive
 
 
-# looping through list apiId apiDetails, then we query apiDetails to get gatewayEndpoints and policiesId
+# looping through list apiId, then we query apiDetails to get gatewayEndpoints and policiesId
 while read apiId; do
     curl --location "$apigw/apigateway/apis/$apiId" -H "$cookie" -H "$accept" > $asset_dir/apiDetails
     jq '.apiResponse.gatewayEndPoints' $asset_dir/apiDetails >> $asset_dir/gatewayEndpoints
