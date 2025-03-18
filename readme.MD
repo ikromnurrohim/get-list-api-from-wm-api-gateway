@@ -4,7 +4,7 @@ If you're working with webMethods API Gateway and find yourself needing to retri
 However, if your using this tool, the process of listing all APIs in your gateway will be more efficient.
 
 In this tools I have share two script, first main.sh script that running on bash and second one script writen in python.
-I create thoose two type to meet our environment something our server in intranet so can't access internet for downloading tools like lib from python, so if your environment can't access internet you can use bash script instead python script, but if your server can access internet I suggest you to use python script which can have more advantages in result.
+I create thoose two type to meet our environment, sometime our server is in intranet so can't access internet for downloading tools like lib from python, so if your environment can't access internet you can use bash script instead python script, but if your server can access internet I suggest you to use python script which can have more advantages in result.
 
 ### Requirement For Bash Script
 - Install [jq](https://github.com/jqlang/jq)
