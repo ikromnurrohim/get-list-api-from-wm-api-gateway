@@ -48,7 +48,10 @@ After running that bash script piece of file will be crated on which directory y
 
 ### Requirement For Python Script
 - create virtualenv
-- install requirements using pip install -r requirements.txt
+- install requirements using command bellow
+```console
+foo@bar:~$ pip install -r requirements.txt 
+```
 - update some config in file main.py to meet to your webmethods apigateway ip and user-pass
 - running and you will see the csv file that contain apis in apigateway data
 
